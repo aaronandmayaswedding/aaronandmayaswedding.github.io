@@ -19,7 +19,7 @@
 
 <body id="page-top">
 <!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top px-5" id="mainNav"> <!-- change name-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top px-3 px-md-5" id="mainNav"> <!-- change name-->
     <a class="navbar-brand js-scroll-trigger d-lg-none" href="#page-top"><h3>M | A 8.15.21</h3></a>
     <button class="hamburger hamburger--spin d-lg-none" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" id="hamburger">
       <span class="hamburger-box">
@@ -60,7 +60,7 @@
 <section class="page-section bg-accent" id="story">
     <div class="container">
         <div class="row justify-content-center align-items-center vh-100">
-            <div class="col-lg-8 text-center">
+            <div class="col-10 col-lg-8 text-center">
                 <h2>Our Story</h2>
                 <p>Maya & Aaron’s love story begins where most love stories begin...a course in symbolic logic. Maya had mistakenly taken the Philosophy 205 class after a counselor told her it was required for her major (it wasn’t). Aaron was smitten with Maya from the first day he saw her in class, and spent a month trying to look cool in front of her (he didn’t). Then on one fateful day, after walking Maya to the bus stop after class, Aaron mustered up the courage to offer her his number, under the pretense of helping her study for the class. 6 years later, Aaron has not answered a single one of Maya’s symbolic logic questions, but she doesn’t seem to mind. Because once you’ve found the love of your life, who needs logic after all?</p>
 
@@ -72,11 +72,11 @@
 <!-- Event Information -->
 <section class="page-section" id="event">
     <div class="container">
-        <div class="row py-6 my-6 align-items-center">
-            <div class="col-sm-10 col-md-5 col-lg-5 offset-1 text-center">
+        <div class="row py-5 my-5 py-md-6 my-md-6 align-items-center">
+            <div class="col-10 col-md-5 col-lg-6 mx-auto px-sm-6 text-center">
                 <img class="img-fluid" src="assets/img/ceremony.jpg">
             </div>
-            <div class="col-sm-12 col-md-5 col-lg-5 text-center">
+            <div class="col-10 col-md-5 col-lg-6 mx-auto text-center">
                 <div class="mt-5">
                     <h2>Ceremony & Reception</h2>
                     <p> 5:30 PM <br><br>
@@ -86,8 +86,9 @@
                 </div>
             </div>
         </div>
-        <div class="row my-6 py-6 justify-content-center align-items-center">
-            <div class="col-lg-8 text-center">
+
+        <div class="row my-3 py-3 my-md-6 py-md-6 justify-content-center align-items-center">
+            <div class="col-10 col-lg-8 text-center">
                 <hr class="details"> <br>
 
                 <h2>Wedding Details</h2>
@@ -116,8 +117,11 @@
 <!-- Recommended Stays -->
 <section class="page-section bg-primary" id="stays">
     <div class="container">
-        <div class="row py-6 my-6 align-items-center">
-            <div class="col-sm-12 col-md-5 col-lg-5 text-center">
+        <div class="row py-3 my-3 py-md-6 my-md-6 align-items-center">
+            <div class="col-10 text-center d-md-none mx-auto px-sm-6 ">
+                <img class="img-fluid" src="assets/img/hotels.jpg">
+            </div>
+            <div class="col-10 col-md-5 col-lg-6 text-center mx-auto">
                 <div class="mt-5">
                     <h2>Recommended Stays</h2>
                     <p>
@@ -136,7 +140,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-10 col-md-5 col-lg-5 offset-1 text-center">
+            <div class="col-10 col-md-5 col-lg-6 mx-auto text-center d-none d-md-block">
                 <img class="img-fluid" src="assets/img/hotels.jpg">
             </div>
             <br>
@@ -146,25 +150,25 @@
 </section>
 
 <!-- Registry todo: try to use bootstrap grid with overflow-->
-<!--<section class="page-section" id="registry">-->
-<!--    <div class="container text-center">-->
-<!--        <h2 class="mb-4">Registry</h2>-->
-<!--        <div class="wrapper justify-content-center">-->
-<!--            <div class="box" onclick="window.location='https://www.crateandbarrel.com/gift-registry/maya-malka-and-aaron-plesset/r6213236'">Crate & Barrel</div>-->
-<!--            <div class="box" onclick="window.location='https://www.williams-sonoma.com/registry/tvg6kbdd88/registry-list.html'">Williams Sonoma</div>-->
-<!--            <div class="box" onclick="window.location='https://www.macys.com/wgl/registry/guest/MAYA-MALKA-AARON-PLESSET/7267134'">Macy's</div>-->
-<!--            <div class="box" onclick="window.location='https://www.westelm.com/registry/tvg6kbdd88/registry-list.html'">West Elm</div>-->
-<!--            <div class="box" onclick="window.location='https://www.zola.com/registry/aaronandmaya'">Zola</div>-->
-<!--            <div class="box" onclick="window.location='https://www.amazon.com/wedding/registry/2I7IFAU1X5HPB'">Amazon</div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
+<section class="page-section" id="registry">
+    <div class="container-fluid text-center ">
+        <div class="row justify-content-center align-items-center gy-4">
+            <h2 class="mb-4">Registry</h2>
+            <div class="col-3 mx-2 box" onclick="window.location='https://www.crateandbarrel.com/gift-registry/maya-malka-and-aaron-plesset/r6213236'">Crate & Barrel</div>
+            <div class="col-3 mx-2 box" onclick="window.location='https://www.williams-sonoma.com/registry/tvg6kbdd88/registry-list.html'">Williams Sonoma</div>
+            <div class="col-3 mx-2 box" onclick="window.location='https://www.macys.com/wgl/registry/guest/MAYA-MALKA-AARON-PLESSET/7267134'">Macy's</div>
+            <div class="col-3 mx-2 box" onclick="window.location='https://www.westelm.com/registry/tvg6kbdd88/registry-list.html'">West Elm</div>
+            <div class="col-3 mx-2 box" onclick="window.location='https://www.zola.com/registry/aaronandmaya'">Zola</div>
+            <div class="col-3 mx-2 box" onclick="window.location='https://www.amazon.com/wedding/registry/2I7IFAU1X5HPB'">Amazon</div>
+        </div>
+    </div>
+</section>
 
 <!-- RSVP todo dropdown and hint text (setcustomvalidity)-->
 <section class="page-section" id="rsvp">
     <div class="container">
-        <div class="row justify-content-center py-6 my-6">
-            <div class="col-lg-8 text-center border border-secondary py-4 px-6" id="rsvp-content">
+        <div class="row justify-content-center py-3 my-3 py-md-6 my-md-6">
+            <div class="col-10 col-lg-8 text-center border border-secondary py-3 px-4 py-md-4 px-md-6" id="rsvp-content">
                 <h1>RSVP</h1>
                 <p> Kindly Reply by June 25, 2021</p>
                 <form id="rsvp-form">
