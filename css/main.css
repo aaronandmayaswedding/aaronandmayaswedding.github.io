@@ -10672,16 +10672,10 @@ header {
   border: none;
 }
 
-div.wrapper {
-  display: grid;
-  grid-template-rows: 200% 200%;
-  grid-template-columns: 30% 30% 30%;
-  grid-gap: 10px;
-  background-color: #fff;
-  color: #444;
-}
-
 div.box {
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
   background-color: #eae0d9;
   color: #000000;
   font-size: 1.6rem;
@@ -10694,18 +10688,10 @@ div.box:hover {
   outline: 1px solid #eae0d9;
 }
 
-.box:before {
-  content: "";
-  display: block;
-  padding-top: 50%;
-  /* initial ratio of 1:1*/
-}
-
-.box:after {
-  content: "";
-  display: block;
-  padding-top: 50%;
-  /* initial ratio of 1:1*/
+span.reg-name {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 option {
