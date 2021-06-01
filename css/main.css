@@ -10650,13 +10650,15 @@ hr.details {
 }
 
 header {
-  padding-top: 45%;
-  padding-bottom: 10%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 10%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+#header-names {
+  padding-top: 55%;
 }
 
 #mainNav.navbar-scrolled {
