@@ -100,7 +100,7 @@ function removeGuest() {
 }
 
 // submit
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyVkpWFuz3lqzPR-46pl8Z-phrhY_SZUbUDM-bppYx-Hwz6DkY7/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwFLrphDRdpy1xDPLw-FEXM-InnsgFS-T-5dZz7o_oRtM_H3_PM/exec'
 var form = document.getElementById('rsvp-form');
 
 $('#rsvp-form').on('submit', function(e) { // todo error handling
